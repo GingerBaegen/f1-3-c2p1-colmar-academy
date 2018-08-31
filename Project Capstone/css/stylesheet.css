@@ -1,0 +1,296 @@
+* {
+    margin: 0 auto;
+    width; 100%;
+    font-family: 'Helvetica', sans-serif;
+}
+
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+ }
+
+ body{
+      padding:10px;
+   padding-bottom:60px;
+ }
+
+
+header {
+    height: 64px;
+    background-color: white;
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding: 5px 0;
+    float:left;
+    padding-top: 20px;
+}
+
+#logo-wrap {
+    padding-left: 24px;
+    float:left;
+    height: 32px;
+}
+
+#logo-wrap img{
+    position: relative;
+    top: 10px;
+}
+
+#menu ul li {
+    display: inline-block;
+    padding-left: 16px;
+    padding-top: 15px;
+    float: right;
+    color: black
+    padding-right: 24px;
+}
+
+#menu ul li:hover{
+    color:  rgb(255, 198, 13);
+    font-weight: bold;
+
+}
+
+ /*Start section one*/
+
+#section-one{
+    background-color: rgba(255, 198, 13, 0.4);
+    height: 1000px;
+    padding-left: 24px;
+}
+
+#section-one img{
+    width: 60%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 24px;
+    float: left;
+}
+
+#section-one div{
+    width: 1600px;
+    position: relative;
+    top: 200px;
+
+}
+
+h1 {
+    color: rgb(87, 75, 75);
+    font-family: 'Helvetica'; 
+    font-size: 4em;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+h3{
+    color:  rgb(87, 75, 75);
+    font-size: 1.5em;
+}
+
+#start-btn {
+    font-family: 'Helvetica';
+    font-size: 22px;
+    margin-top: 30px;
+    background-color: rgb(87, 75, 75);
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 510px;
+    height: 50px;
+    border: 0px;
+}
+
+#start-btn:hover{
+    background-color:  rgb(48, 37, 37);
+}
+
+ /* Start section two */
+
+ #section-two{
+     height: 800px;
+     background-color: white;
+     padding-left: 24px;
+     padding-top: 32px;
+     padding-bottom: 32px;
+     display:flex;
+
+ }
+
+ h2 {
+    color:  rgb(87, 75, 75);
+    font-size: 2.5em; 
+ }
+
+ .article-one h2{
+     padding-top: 32px;
+     padding-bottom: 24px;
+     color: rgb(240, 198, 60);
+ }
+
+ .article-one p{
+     float: left;
+ }
+
+ .article-one{
+     padding-right: 24px;
+     flex: 2;
+     width: 60%;
+     float:left;
+     flex: 1;
+ }
+
+ .article-one h5{
+     padding-top: 50px;
+     position: relative;
+     left: -665px;
+     top: 70px;
+ }
+
+.article-two{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+
+ .article-subject{
+    padding-left: 16px;
+    width: 100%;
+   
+ }
+
+ .subject-text{  
+    padding-top: 70px;
+    position: relative;
+    padding-left: 200px;
+    width: 400px;
+     
+ }
+
+ .subject-text h3 {
+    padding-top: 8px;
+    padding-left: 50px;
+}
+
+ .subject-text p {
+     padding-top: 8px;
+     padding-left: 50px;
+ }
+ 
+ .subject-text a {
+    display: block;
+    padding-top: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+.subject-text a:hover {
+    color: lightblue;
+}
+
+ .article-subject img {
+     height: auto;
+     padding-left: 16px;
+     float:left;
+     width: 35%;
+     padding-top:16px;
+     padding-bottom: 16px;
+ }
+
+ #yellow-subject{
+     background-color: rgba(255, 198, 13, 0.4);
+ }
+
+  /* Start section three */
+
+ #section-three{
+     height: 1000px;
+     padding-left: 72px;
+     margin-top: 140px;
+     padding-top: 32px;
+     background-color: rgba(255, 198, 13, 0.4);
+ }
+
+ #section-three h2{
+     text-align: center;
+     padding-bottom: 32px;
+ }
+
+ #gallery-wrap{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     max-width: 1400px;
+     
+ }
+
+ .picture-gallery img{
+     height: auto;
+     width: 400px;
+ }
+
+ .picture-gallery {
+     background-color: white;
+     width: 400px;
+     height: 400px;
+     margin-left: 32px;
+     margin-bottom: 32px;
+     
+ }
+
+ .text-gallery{
+     padding-top: 16px;
+     padding-left: 16px;
+ }
+
+ .text-gallery h3,p{
+     padding-bottom: 8px;
+ }
+
+  /* Start section 4 */
+
+  #section-four{
+    padding-left: 24px;
+    display: block;
+}
+
+#section-four h2{
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+
+.article-one video{
+    padding-right: 24px;
+    width: 1130px;
+    float:left;
+}
+
+.video-text{
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
+
+.video-text p {
+    padding-top: 8px;
+}
+
+ /* Footer */
+
+
+footer {
+    padding-top: 16px;
+    padding-left: 24px;
+    height: 70px;
+    position: relative;
+    top: 200px;
+    text-align: left;
+}
+
+footer p{
+   position: relative;
+   left: -1135px;
+}
